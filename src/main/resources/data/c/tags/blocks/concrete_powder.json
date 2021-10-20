@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "nofall:white_concrete_powder_nofall",
+    "nofall:orange_concrete_powder_nofall",
+    "nofall:magenta_concrete_powder_nofall",
+    "nofall:light_blue_concrete_powder_nofall",
+    "nofall:yellow_concrete_powder_nofall",
+    "nofall:lime_concrete_powder_nofall",
+    "nofall:pink_concrete_powder_nofall",
+    "nofall:gray_concrete_powder_nofall",
+    "nofall:light_gray_concrete_powder_nofall",
+    "nofall:cyan_concrete_powder_nofall",
+    "nofall:purple_concrete_powder_nofall",
+    "nofall:blue_concrete_powder_nofall",
+    "nofall:brown_concrete_powder_nofall",
+    "nofall:green_concrete_powder_nofall",
+    "nofall:red_concrete_powder_nofall",
+    "nofall:black_concrete_powder_nofall"
+  ]
+}
