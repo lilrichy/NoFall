@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nofall:light_gray_concrete_powder_nofall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_concrete_powder",
+    "count": 1
+  }
+}

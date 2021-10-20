@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nofall:red_sand_nofall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_sand",
+    "count": 1
+  }
+}

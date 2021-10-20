@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "nofall:red_concrete_powder_nofall",
+    "count": 1
+  }
+}
