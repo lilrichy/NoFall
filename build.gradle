@@ -71,19 +71,25 @@ curseforge {
         changelogType = "text"
         changelog = file("changelog.txt")
         releaseType = "release"
+        addGameVersion "Fabric"
         addGameVersion "1.17.1"
         addGameVersion "Java 16"
-		mainArtifact(jar) {
-            displayName = "NoFall $project.version"
+        mainArtifact file("${project.buildDir}/libs/$archivesBaseName-${project.version}.jar")
+
+        relations {
+            requiredLibrary "fabric"
         }
+
     }
     options {
         forgeGradleIntegration = false
-		debug = false
+        debug = true
+        javaIntegration = false // defaults to true
+        detectNewerJava = true // defaults to false
+
+
     }
 }
-
-
 
 // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
 repositories {
