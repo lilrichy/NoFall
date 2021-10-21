@@ -64,7 +64,7 @@ jar {
 }
 curseforge {
     if (project.hasProperty("curseForgeApiKey")) {
-        apiKey = project.properties.curseForgeApiKey
+        apiKey = system.getenv("curseForgeApiKey")
     }
     project {
         id = "538744"
@@ -75,15 +75,11 @@ curseforge {
         addGameVersion "Fabric"
         addGameVersion "Java 16"
         mainArtifact file("${project.buildDir}/libs/$archivesBaseName-${project.version}.jar")
-
     }
     options {
         forgeGradleIntegration = false
-        debug = false
         javaIntegration = false // defaults to true
         detectNewerJava = true // defaults to false
-
-
     }
 }
 
