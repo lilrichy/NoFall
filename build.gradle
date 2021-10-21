@@ -71,19 +71,15 @@ curseforge {
         changelogType = "text"
         changelog = file("changelog.txt")
         releaseType = "release"
-        addGameVersion "Fabric"
         addGameVersion "1.17.1"
+        addGameVersion "Fabric"
         addGameVersion "Java 16"
         mainArtifact file("${project.buildDir}/libs/$archivesBaseName-${project.version}.jar")
-
-        relations {
-            requiredLibrary "fabric"
-        }
 
     }
     options {
         forgeGradleIntegration = false
-        debug = true
+        debug = false
         javaIntegration = false // defaults to true
         detectNewerJava = true // defaults to false
 
