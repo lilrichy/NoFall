@@ -1,7 +1,8 @@
 # NoFall
 
 [![curselink](https://cf.way2muchnoise.eu/title/nofall.svg)](https://www.curseforge.com/minecraft/mc-mods/nofall)
-[![mcversions](https://cf.way2muchnoise.eu/versions/For%20MC_nofall_all.svg)](https://www.curseforge.com/minecraft/mc-mods/nofall)
+[![mcversions](https://cf.way2muchnoise.eu/versions/Minecraft_nofall_all.svg)](https://www.curseforge.com/minecraft/mc-mods/nofall) 
+![Fabric Mod](https://badgen.net/badge/icon/Fabric/orange?icon=https://raw.githubusercontent.com/lilrichy/Website/9ae0ec0c4cd178ad03cba7550585fb0fb5587252/fabric.svg&label)
 [![build](https://github.com/lilrichy/NoFall/actions/workflows/build.yml/badge.svg)](https://github.com/lilrichy/NoFall/actions/workflows/build.yml)
 [![version](https://badgen.net/github/release/lilrichy/NoFall?icon=github)](https://github.com/lilrichy/NoFall/releases)
 [![downloads](https://cf.way2muchnoise.eu/short_nofall_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/nofall)
