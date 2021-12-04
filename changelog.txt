@@ -1,2 +1,5 @@
+Version 1.0.2
+    Update to MC 1.18
+
 Version 0.0.2
     Fix upload problem in gradle so correct file gets uploaded to Curse.
